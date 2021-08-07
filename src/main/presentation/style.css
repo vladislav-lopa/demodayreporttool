@@ -1,0 +1,84 @@
+body {
+    background-image: url(images/background_image.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.top-indent {
+    margin-top:150px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 100px;
+    width: 100px;
+    background-color: grey;
+    background-size: 100%, 100%;
+    border-radius: 50%;
+}
+
+.make-container {
+  width: 100%;
+  padding-right: 200px;
+  padding-left: 200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.card-label.mod-card-detail-green {
+    background-color: green;
+    border-radius: 4px;
+    color: #fff;
+    margin-right: 4px;
+    max-width: 100%;
+    overflow: hidden;
+    padding: 4px 6px;
+    position: relative;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-font-smoothing: antialiased;
+}
+
+.card-label.mod-card-detail-orange {
+    background-color: #fa8118;
+    border-radius: 4px;
+    color: #fff;
+    margin-right: 4px;
+    max-width: 100%;
+    overflow: hidden;
+    padding: 4px 6px;
+    position: relative;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    -webkit-font-smoothing: antialiased;
+}
+
+.card-label-black {
+    background-color: blue;
+}
+
+.card-label.mod-clickable {
+    cursor: pointer;
+}
+
+h1 {
+    font-family: Jura;
+}
+
+span {
+    font-size:70%;
+    font-family: Krona One;
+
+}
+
+.navbar a {
+    color: black !important;
+}
+
+.navbar a:hover {
+    color: white !important;
+}
